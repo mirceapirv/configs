@@ -1,0 +1,23 @@
+.scrollbars-visible-always {
+  /deep/ ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  /deep/ ::-webkit-scrollbar-track,
+  /deep/ ::-webkit-scrollbar-corner {
+    background: rgba(127, 127, 127, 0.1);
+  }
+
+  /deep/ ::-webkit-scrollbar-thumb {
+    background: rgba(127, 127, 127, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgba(127, 127, 127, 0.3) inset;
+  }
+
+  /deep/ ::-webkit-scrollbar-thumb:hover {
+    background: rgba(127, 127, 127, 0.3);
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgba(127, 127, 127, 0.4) inset;
+  }
+}
