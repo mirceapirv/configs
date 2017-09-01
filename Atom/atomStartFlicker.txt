@@ -1,0 +1,2 @@
+atom --ignore-gpu-blacklist --disable-gpu-sandbox
+
