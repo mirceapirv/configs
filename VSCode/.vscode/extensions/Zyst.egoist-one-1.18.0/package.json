@@ -1,0 +1,46 @@
+{
+	"name": "Egoist-One",
+	"displayName": "Egoist One",
+	"description": "Fork of Binarify/OneDark-Pro customized to my taste",
+	"version": "1.18.0",
+	"publisher": "Zyst",
+	"bugs": {
+		"url": "https://github.com/Zyst/Egoist-One/issues"
+	},
+	"homepage": "https://github.com/Zyst/Egoist-One",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Zyst/Egoist-One"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Egoist One",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Egoist-One.json"
+			}
+		]
+	},
+	"icon": "icon.png",
+	"keywords": [
+		"egoist one",
+		"one dark",
+		"one dark pro",
+		"theme",
+		"atom"
+	],
+	"devDependencies": {
+		"docsify-cli": "^3.3.2"
+	},
+	"__metadata": {
+		"id": "1946e66b-9eea-45a9-816b-316bf9d7d1ab",
+		"publisherId": "b656f3b5-221e-4619-a95e-407f9e489ff0",
+		"publisherDisplayName": "Zyst"
+	}
+}

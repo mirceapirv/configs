@@ -1,0 +1,35 @@
+{
+	"name": "git-file-status",
+	"version": "1.0.0",
+	"publisher": "D",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"galleryBanner": {
+		"color": "#000",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dongri/git-file-status"
+	},
+	"bugs": {
+		"url": ""
+	},
+	"dependencies": {
+		"gulp": "^3.9.1",
+		"gulp-insert": "^0.5.0",
+		"gulp-rename": "^1.2.2",
+		"gulp-uglify": "^3.0.0",
+		"gulp-util": "^3.0.8",
+		"path": "^0.12.7",
+		"pump": "^1.0.2",
+		"read-last-lines": "^1.2.0",
+		"uglify-es": "^3.0.28"
+	},
+	"__metadata": {
+		"id": "99c55622-73bb-47ad-bfa5-68df5be52780",
+		"publisherId": "0a80f625-04df-45c6-b68d-e0180ebbda5f",
+		"publisherDisplayName": "D"
+	}
+}
